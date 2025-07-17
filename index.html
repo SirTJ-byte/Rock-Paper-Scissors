@@ -8,8 +8,20 @@
 	<body>
 		<header>
 			<h1>Rock Paper Scissors</h1>
-			<h2>Open Console to Play Game</h2>
+			<h2>Enter Valid Choice Below</h2>
+			<div><p id="EachGameResult"></p></div>
+			<div>
+				<p class="playerScore">playerScore<span> 0</span></p>
+				<p class="computerScore">computerScore<span> 0</span></p>
+			</div>
+			<div><p id="invalidSelection"></p></div>
+			<div>
+				<input id="fieldInput" type="text" /><button id="play">Play</button>
+			</div>
 		</header>
+
+		<div class="finalResult"></div>
+		<button class="restart">Restart</button>
 		<script src="script.js"></script>
 	</body>
 </html>
